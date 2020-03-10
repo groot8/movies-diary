@@ -20,7 +20,6 @@ if (loading && !movies.length) {
         movies.push(snapshotVal[slug]);
       }
 
-      // const newestFirst = posts.reverse();
       setMovies(movies);
       setLoading(false);
     });
