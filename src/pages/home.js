@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { getFirebase } from "../firebase";
 
 const Home = () => {
-
 const [loading, setLoading] = useState(true);
 const [movies, setMovies] = useState([]);
 
